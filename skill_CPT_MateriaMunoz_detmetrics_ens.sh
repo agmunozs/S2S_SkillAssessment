@@ -16,7 +16,7 @@
 #Downloading data?
 down=0   #1 for download all data, 0 for not downloading data.
 #PATH to CPT root directory
-cptdir='/Users/agms/Documents/Angel/CPT/CPT/15.6.4/'
+cptdir='/Users/agmunoz/Documents/Angel/CPT/CPT/15.7.3/'
 #Weeks to process (a subset of 3-6)
 declare -a weeks=('3' '4' '5' '6')
 nla=90 # Nothernmost latitude
