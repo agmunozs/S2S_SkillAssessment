@@ -14,7 +14,7 @@
 
 ####START OF USER-MODIFIABLE SECTION######
 #Downloading data?
-down=0   #1 for download all data, 0 for not downloading data.
+down=1   #1 for download all data, 0 for not downloading data.
 #PATH to CPT root directory
 cptdir='/Users/agmunoz/Documents/Angel/CPT/CPT/15.7.3/'
 #Weeks to process (a subset of 3-6)
