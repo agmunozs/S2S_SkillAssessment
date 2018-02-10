@@ -21,8 +21,8 @@ cptdir='/Users/agmunoz/Documents/Angel/CPT/CPT/15.7.3/'
 declare -a weeks=('3' '4' '5' '6')
 nla=90 # Nothernmost latitude
 sla=-90 # Southernmost latitude
-wlo=0 # Westernmost longitude
-elo=360 # Easternmost longitude
+wlo=360 # Westernmost longitude
+elo=0 # Easternmost longitude
 
 ####END OF USER-MODIFIABLE SECTION######
 ####DO NOT CHANGE ANYTHING BELOW THIS LINE####
