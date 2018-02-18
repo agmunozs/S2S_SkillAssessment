@@ -7,11 +7,17 @@ for my $iter (10 .. 35) {
 
      open(FILE, $filename) or die "Could not read from $filename, program halting.";
      while(<FILE>)
-     {
+       {
       chomp;
       next unless $. == 3;
       @fields = split(' 0', $_);
-      print $out "$fields[1]\n";
+      my $neg = '-';
+      my $result = index($fields[0], $neg);
+      if ($result == -1) {
+	    print $out "$fields[1]\n";
+        } else {
+	    print $out "-1\n";
+      }
      }
    close FILE;
   }
