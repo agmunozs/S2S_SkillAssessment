@@ -22,7 +22,7 @@ declare -a mon=('Jan' 'Feb' 'Mar' 'Apr' 'May' 'Jun' 'Jul' 'Aug' 'Sep' 'Oct' 'Nov
 #Year when hindcasts were produced (must be >=2015 and <=present year)
 syear=2016
 #S2S Database key
-key='017a28e8531cac13efd89be8a7612c4c0754a83606f8f90270d14d84f62c28d7ff7fe8fbfb04c0495ddf938392d0bf3d9617e8b7'
+key='KEYHERE'
 #PATH to CPT root directory
 cptdir='/Users/agmunoz/Documents/Angel/CPT/CPT/15.7.3/'
 
