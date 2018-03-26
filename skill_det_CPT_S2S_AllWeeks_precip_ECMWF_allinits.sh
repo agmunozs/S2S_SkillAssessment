@@ -1,7 +1,7 @@
 #! /bin/bash
-#Script to assess raw Week1 skill of ECMWF subseasonal rainfall forecasts (all inits per month). 
+#Script to assess raw weekly skill of ECMWF subseasonal rainfall forecasts (all inits per month). 
 #Author: Á.G. Muñoz (agmunoz@iri.columbia.edu), Andrew W. Robertson and Remi Cousin
-#This version: 28 Feb 2018
+#This version: 26 Mar 2018
 #First version: 12 Dec 2017
 #
 #Output:
@@ -12,8 +12,9 @@
 #0. Old data in the input folder is deleted at the beginning of the process!
 #1. All initializations available per month are used, concatenated.
 #2. The T coordinate has been faked, so CPT can deal with all the initializations.
-#3. Spatial subsetting is now possible in this version of the script.
+#3. Spatial subsetting is now possible in this version of the script. Uncomment lines.
 #4. Rainfall observations are CPC Unified (Chen et al 2008), at 1.5 deg. (Land only)
+#5. All weeks can be processed with this version.  
 
 ####START OF USER-MODIFIABLE SECTION######
 
@@ -26,7 +27,7 @@ declare -a mon=('Jan' 'Feb' 'Mar' 'Apr' 'May' 'Jun' 'Jul' 'Aug' 'Sep' 'Oct' 'Nov
 #Year when hindcasts were produced (must be >=2015 and <=present year)
 syear=2017
 #S2S Database key
-key='017a28e8531cac13efd89be8a7612c4c0754a83606f8f90270d14d84f62c28d7ff7fe8fbfb04c0495ddf938392d0bf3d9617e8b7'
+key='XXX'
 #Number of days to average (use 7 for weekly averages, 14 for biweekly ones)
 nda=7
 #Spatial domain for predictor
