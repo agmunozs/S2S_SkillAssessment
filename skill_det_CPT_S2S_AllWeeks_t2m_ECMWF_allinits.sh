@@ -27,7 +27,7 @@ declare -a mon=('Mar')  #if just a particular month is desired
 #Year when hindcasts were produced (must be >=2015 and <=present year)
 syear=2017
 #S2S Database key
-key='017a28e8531cac13efd89be8a7612c4c0754a83606f8f90270d14d84f62c28d7ff7fe8fbfb04c0495ddf938392d0bf3d9617e8b7'
+key='XXXX'
 #Number of days to average (use 7 for weekly averages, 14 for biweekly ones)
 nda=7
 #Spatial domain for predictor
