@@ -52,9 +52,9 @@ cptdir='/Users/agmunoz/Documents/Angel/CPT/CPT/15.7.3/'
 #cptdir='/Users/andy/Dropbox/pgm/stats/CPT/CPT15/15.7.3/'
 
 #S2S Database key
-#Angel key='017a28e8531cac13efd89be8a7612c4c0754a83606f8f90270d14d84f62c28d7ff7fe8fbfb04c0495ddf938392d0bf3d9617e8b7'
+#Angel key='XXX'
 # AWR key
-key='f7a5c7a57103d4ed1be1224f814b01b77951a6c20a4cbe85dd6b1942af7e479b11e3443a819d6bd601ac35070c7e5667e84e23f5'
+key='XXX'
 
 ####END OF USER-MODIFIABLE SECTION######
 ####DO NOT CHANGE ANYTHING BELOW THIS LINE####
